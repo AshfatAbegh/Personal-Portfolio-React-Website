@@ -8,14 +8,10 @@ import firebase from '../assets/firebase.png';
 import api from '../assets/api.png'; 
 import selenium from '../assets/selenium.jpg'; 
 import netlify from '../assets/netlify.png'; 
-import dsa from '../assets/dsa.png';
-import c from '../assets/c.png'; 
 import cplusplus from '../assets/cplusplus.jpg'; 
 import java from '../assets/java.png'; 
 import php from '../assets/php.png'; 
-import cSharp from '../assets/cSharp.jpg'; 
-import python from '../assets/python.jpg'; 
-import tailwind from '../assets/tailwind.png'; 
+import cSharp from '../assets/cSharp.jpg';
 import node from '../assets/node.png'; 
 import mySql from '../assets/mySql.png';
 import mSql from '../assets/mSql.png';
@@ -89,86 +85,62 @@ const Experience = () => {
         },
         {
             id: 11,
-            src: dsa,
-            title: 'Data Structure & Algorithm',
-            style: 'shadow-green-500'
-        },
-        {
-            id: 12,
-            src: c,
-            title: 'C',
-            style: 'shadow-blue-500'
-        },
-        {
-            id: 13,
             src: cplusplus,
             title: 'C++',
             style: 'shadow-blue-500'
         },
         {
-            id: 14,
+            id: 12,
             src: java,
             title: 'Java',
             style: 'shadow-orange-500'
         },
         {
-            id: 15,
+            id: 13,
             src: php,
             title: 'PHP',
             style: 'shadow-purple-500'
         },
         {
-            id: 16,
+            id: 14,
             src: cSharp,
             title: 'C#',
             style: 'shadow-purple-500'
         },
         {
-            id: 17,
-            src: python,
-            title: 'Python',
-            style: 'shadow-yellow-500'
-        },
-        {
-            id: 18,
-            src: tailwind,
-            title: 'Tailwind CSS',
-            style: 'shadow-sky-400'
-        },
-        {
-            id: 19,
+            id: 15,
             src: node,
             title: 'Node.js',
             style: 'shadow-green-500'
         },
         {
-            id: 20,
+            id: 16,
             src: mySql,
             title: 'MySQL',
             style: 'shadow-violet-500'
         },
         {
-            id: 21,
+            id: 17,
             src: mSql,
             title: 'Microsoft SQL Server',
             style: 'shadow-red-500'
         },
         {
-            id: 22,
+            id: 18,
             src: jira,
             title: 'Jira',
             style: 'shadow-blue-500'
         },
         {
-            id: 23,
+            id: 19,
             src: github,
             title: 'Github',
             style: 'shadow-gray-400'
         },
         {
-            id: 24,
+            id: 20,
             src: reactBoot,
-            title: 'ReactBootstrap',
+            title: 'RBStrap',
             style: 'shadow-sky-400'
         }
     ]
@@ -183,7 +155,7 @@ const Experience = () => {
                     <p className = "py-6">These are the Technologies I've Worked With</p>
                 </div>
 
-                <div className = "w-full grid grid-cols-5 sm:grid-cols-6 gap-8 text-center py-8 px-12  sm:px-0">
+                <div className = "w-full grid grid-cols-4 sm:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0">
                     
                     {
                       techs.map(({id, src, title, style}) => (
