@@ -1,10 +1,10 @@
 import React from 'react';
-import emaJohn from '../assets/Portfolio/emaJohn.png';
-import HungryMonster from '../assets/Portfolio/HungryMonster.png';
-import PenguinFashion from '../assets/Portfolio/PenguinFashion.png';
-import UltraNation from '../assets/Portfolio/UltraNation.png';
-import HardRock from '../assets/Portfolio/HardRock.png';
-import SearchMeal from '../assets/Portfolio/SearchMeal.png';
+import emaJohn from '../assets/portfolio/emaJohn.png';
+import HungryMonster from '../assets/portfolio/HungryMonster.png';
+import PenguinFashion from '../assets/portfolio/PenguinFashion.png';
+import UltraNation from '../assets/portfolio/UltraNation.png';
+import HardRock from '../assets/portfolio/HardRock.png';
+import SearchMeal from '../assets/portfolio/SearchMeal.png';
 
 const Portfolio = () => {
 
